@@ -13,9 +13,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
+        
+        DTIToastCenter.defaultCenter.registerCenter()
+        
+        UINavigationBar.appearance().barTintColor = UIColor(hex: "34495e")
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSForegroundColorAttributeName: UIColor.whiteColor()
+        ]
+        UINavigationBar.appearance().translucent = false
+        
+        Parse.setApplicationId("91IkkD3oh5LolLZT6TrJjkm1Z1isuIiLBYLjcYWV", clientKey: "a50KsISXZIrGTiZojfqxtTdDee9wzIMY3Uuvqlvt")
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        var defaults = NSUserDefaults.standardUserDefaults()
+        if (defaults.valueForKey("version") == nil) {
+            defaults.setObject(25, forKey: "distance")
+            defaults.setObject(2014, forKey: "yearMax")
+            defaults.setObject(100000, forKey: "priceMax")
+            defaults.setObject("No Preference", forKey: "make")
+            defaults.setObject("Distance: Nearest", forKey: "sort")
+            defaults.setFloat((NSBundle.mainBundle().infoDictionary["CFBundleVersion"] as NSString).floatValue, forKey: "version")
+            
+            defaults.synchronize()
+        }
+        
+        if (NSUserDefaults.standardUserDefaults().floatForKey("version") == (NSBundle.mainBundle().infoDictionary["CFBundleVersion"])?.floatValue) {
+            
+        } else {
+            defaults.setObject(25, forKey: "distance")
+            defaults.setObject(2014, forKey: "yearMax")
+            defaults.setObject(100000, forKey: "priceMax")
+            defaults.setObject("No Preference", forKey: "make")
+            defaults.setObject("Distance: Nearest", forKey: "sort")
+            defaults.setFloat((NSBundle.mainBundle().infoDictionary["CFBundleVersion"] as NSString).floatValue, forKey: "version")
+            
+            defaults.synchronize()
+        }
+        
+
         return true
     }
 
