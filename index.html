@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>CarWise: Sell &amp; Buy Cars Wisely</title>
+
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flat-ui-pro.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/flat-ui-pro.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <script>
+      jQuery(document).ready(function ($) {
+        setInterval(function () {
+              moveRight();
+          }, 3000);
+        
+        var slideCount = $('#slider ul li').length;
+        var slideWidth = $('#slider ul li').width();
+        var slideHeight = $('#slider ul li').height();
+        var sliderUlWidth = slideCount * slideWidth;
+        
+        $('#slider').css({ width: slideWidth, height: slideHeight });
+        
+        $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+        
+          $('#slider ul li:last-child').prependTo('#slider ul');
+
+          function moveLeft() {
+              $('#slider ul').animate({
+                  left: + slideWidth
+              }, 200, function () {
+                  $('#slider ul li:last-child').prependTo('#slider ul');
+                  $('#slider ul').css('left', '');
+              });
+          };
+
+          function moveRight() {
+              $('#slider ul').animate({
+                  left: - slideWidth
+              }, 200, function () {
+                  $('#slider ul li:first-child').appendTo('#slider ul');
+                  $('#slider ul').css('left', '');
+              });
+          };
+
+          $('a.control_prev').click(function () {
+              moveLeft();
+          });
+
+          $('a.control_next').click(function () {
+              moveRight();
+          });
+      });
+    </script>
+
+    <section id="Top">
+
+      <div class="container social-bar right">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="https://twitter.com/CarWiseApp" class="twitter-follow-button" data-show-count="false">Follow @CarWiseApp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="col-md-12 Info mobile-center">
+              <h3><img src="img/logo.png"></h3>
+              <h3>Buy &amp; Sell Your Car Wisely</h3>
+              <h4>Get your car sold faster and easier than ever</h4>
+              <h5>
+                <ul>
+                  <li>No more Craigslist</li>
+                  <li>Exposure on the go</li>
+                  <li>Simple and easy</li>
+                  <li>No more hassles</li>
+                  <li>100% Free</li>
+                </ul>
+              </h5>
+            </div>
+
+            <div class="col-md-4 centered download-tab">
+              <a href="https://appsto.re/us/LO9A3.i"><img src="img/appstore.png" class="store-btn"></a>
+            </div>
+
+            <div class="col-md-4 centered downlaod-tab">
+              <img src="img/googleplay-soon.png" class="store-btn">
+            </div>
+              
+            <div class="col-md-4 centered download-tab">
+              <img src="img/webapp-soon.png" class="store-btn">
+            </div>
+          </div>
+
+          <div class="col-md-6 centered visibility">
+            <img src="img/topiphone.png">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 right columns mobile-left">
+            <div class="col-md-12">
+              <h5>Easy To Post</h5>
+              <p>It only takes 2 minutes to post a car with us, you can do it from home or at work, simple and easy anywhere you do post.</p>
+            </div>
+            <div class="col-md-12">
+              <h5>Get Contacted</h5>
+              <p>Anyone looking at your car will have the ability to contact you with a single tap. Get quicker responses with CarWise.</p>
+            </div>
+            <div class="col-md-12">
+              <h5>Totally Free</h5>
+              <p>CarWise does not charge to post any car with up to 5 images. We are working hard to allowing you to post more images.</p>
+            </div>
+          </div>
+          <div class="col-md-4 centered middle-iphone visibility">
+            <div class="images">
+              <div id="slider">
+                <ul>
+                  <li><img src="img/slider1.jpg"></li>
+                  <li><img src="img/slider2.jpg"></li>
+                  <li><img src="img/slider3.jpg"></li>
+                  <li><img src="img/slider4.jpg"></li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 columns">
+            <div class="col-md-12">
+              <h5>Filtered Search</h5>
+              <p>Personalize what you are searching for and get the results you are waiting for. Searching for you new car has never been easier.</p>
+            </div>
+            <div class="col-md-12">
+              <h5>Contact the Owner</h5>
+              <p>We make it easier for you to contact the owner. With a single tap you can SMS, call or E-mail the owner of your dream car.</p>
+            </div>
+            <div class="col-md-12">
+              <h5>Quick Localization</h5>
+              <p>With CarWise every car has a location. You can locate your dream car in a map and get directions to the exact location.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 visibility"><a href="#"><img src="img/footerlogo.png"></a></div>
+          <div class="col-md-9 mobile-center right">
+            <ul>
+              <li><a href="https://appsto.re/us/LO9A3.i">Download for iOS</a></li>
+              <li><a href="mailto:help@carwise.me">Contact Us</a></li>
+              <li><a href="http://www.twitter.com/CarWiseApp">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56063519-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
