@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800F09E81A127F7C00C889B4 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F09E71A127F7C00C889B4 /* RegistrationForm.swift */; };
+		800F09EC1A12862200C889B4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F09EB1A12862100C889B4 /* LoginForm.swift */; };
+		800F09EE1A128DE100C889B4 /* ProfileForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F09ED1A128DE100C889B4 /* ProfileForm.swift */; };
+		801EEB901A09F1B7004FB2FF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EEB8F1A09F1B7004FB2FF /* RegisterViewController.swift */; };
+		801F07B21A082E7100217F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F07B11A082E7100217F2F /* LoginViewController.swift */; };
+		806C38EB19FED376005FE2B2 /* cellBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806C38EA19FED375005FE2B2 /* cellBackground@2x.png */; };
+		806C38ED19FEE470005FE2B2 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C38EC19FEE470005FE2B2 /* RightMenuViewController.swift */; };
+		806C38EF19FEE7B3005FE2B2 /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806C38EE19FEE7B3005FE2B2 /* chat@2x.png */; };
+		806C38F619FF01B1005FE2B2 /* distance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806C38F419FF01B1005FE2B2 /* distance@2x.png */; };
+		806C38F719FF01B1005FE2B2 /* sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806C38F519FF01B1005FE2B2 /* sort@2x.png */; };
+		80876C341A11B9B100D670DA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80876C331A11B9B100D670DA /* ProfileViewController.swift */; };
+		808DA11B1A00A36900FB6855 /* MySalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808DA11A1A00A36900FB6855 /* MySalesViewController.swift */; };
+		809833E519FDD12600C30394 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809833E319FDD12600C30394 /* menu@2x.png */; };
+		80A35B551A00001900A50412 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A35B541A00001800A50412 /* CustomCell.swift */; };
+		80A35B571A0001D300A50412 /* foto@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80A35B561A0001D300A50412 /* foto@2x.jpg */; };
 		80F20F7719FDA8720007486F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F20F7619FDA8720007486F /* AppDelegate.swift */; };
 		80F20F7919FDA8720007486F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F20F7819FDA8720007486F /* ViewController.swift */; };
 		80F20F7C19FDA8720007486F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F20F7A19FDA8720007486F /* Main.storyboard */; };
 		80F20F7E19FDA8720007486F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F20F7D19FDA8720007486F /* Images.xcassets */; };
 		80F20F8119FDA8720007486F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F20F7F19FDA8720007486F /* LaunchScreen.xib */; };
 		80F20F8D19FDA8720007486F /* CarWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F20F8C19FDA8720007486F /* CarWiseTests.swift */; };
+		80F20F9719FDA9D10007486F /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F20F9619FDA9D10007486F /* LeftMenuViewController.swift */; };
+		80FEC0AE19FDDF550091664F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FEC0AD19FDDF550091664F /* MapKit.framework */; };
+		F63CCEE5CB8407C23A6A1506 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4863DFA19DEC68A21A70337E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8E61D863BE657450AA7FE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4863DFA19DEC68A21A70337E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F09E71A127F7C00C889B4 /* RegistrationForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
+		800F09EB1A12862100C889B4 /* LoginForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		800F09ED1A128DE100C889B4 /* ProfileForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileForm.swift; sourceTree = "<group>"; };
+		801EEB8F1A09F1B7004FB2FF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		801F07B11A082E7100217F2F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		806C38EA19FED375005FE2B2 /* cellBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cellBackground@2x.png"; path = "../../../Documents/Jobr/CarWise/App Images/cellBackground@2x.png"; sourceTree = "<group>"; };
+		806C38EC19FEE470005FE2B2 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		806C38EE19FEE7B3005FE2B2 /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		806C38F419FF01B1005FE2B2 /* distance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distance@2x.png"; sourceTree = "<group>"; };
+		806C38F519FF01B1005FE2B2 /* sort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort@2x.png"; sourceTree = "<group>"; };
+		80876C331A11B9B100D670DA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		808DA11A1A00A36900FB6855 /* MySalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySalesViewController.swift; sourceTree = "<group>"; };
+		809833E319FDD12600C30394 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		80A35B541A00001800A50412 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		80A35B561A0001D300A50412 /* foto@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto@2x.jpg"; sourceTree = "<group>"; };
 		80F20F7119FDA8720007486F /* CarWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F20F7519FDA8720007486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F20F7619FDA8720007486F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +71,10 @@
 		80F20F8619FDA8720007486F /* CarWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F20F8B19FDA8720007486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F20F8C19FDA8720007486F /* CarWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWiseTests.swift; sourceTree = "<group>"; };
+		80F20F9619FDA9D10007486F /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		80F20F9819FDAB0F0007486F /* CarWise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarWise-Bridging-Header.h"; sourceTree = "<group>"; };
+		80FEC0AD19FDDF550091664F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF84C842D2BB7E4A2BFBB336 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FEC0AE19FDDF550091664F /* MapKit.framework in Frameworks */,
+				F63CCEE5CB8407C23A6A1506 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809833DD19FDCE4200C30394 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				80A35B561A0001D300A50412 /* foto@2x.jpg */,
+				806C38F419FF01B1005FE2B2 /* distance@2x.png */,
+				806C38F519FF01B1005FE2B2 /* sort@2x.png */,
+				806C38EE19FEE7B3005FE2B2 /* chat@2x.png */,
+				806C38EA19FED375005FE2B2 /* cellBackground@2x.png */,
+				809833E319FDD12600C30394 /* menu@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		80F20F6819FDA8720007486F = {
 			isa = PBXGroup;
 			children = (
 				80F20F7319FDA8720007486F /* CarWise */,
 				80F20F8919FDA8720007486F /* CarWiseTests */,
 				80F20F7219FDA8720007486F /* Products */,
+				8A707347675C1AB9DFBB4ED0 /* Pods */,
+				A5D9C18E9ACE58C68E033EB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +135,21 @@
 			children = (
 				80F20F7619FDA8720007486F /* AppDelegate.swift */,
 				80F20F7819FDA8720007486F /* ViewController.swift */,
+				808DA11A1A00A36900FB6855 /* MySalesViewController.swift */,
+				80F20F9619FDA9D10007486F /* LeftMenuViewController.swift */,
+				806C38EC19FEE470005FE2B2 /* RightMenuViewController.swift */,
 				80F20F7A19FDA8720007486F /* Main.storyboard */,
 				80F20F7D19FDA8720007486F /* Images.xcassets */,
 				80F20F7F19FDA8720007486F /* LaunchScreen.xib */,
 				80F20F7419FDA8720007486F /* Supporting Files */,
+				80F20F9819FDAB0F0007486F /* CarWise-Bridging-Header.h */,
+				80A35B541A00001800A50412 /* CustomCell.swift */,
+				801F07B11A082E7100217F2F /* LoginViewController.swift */,
+				801EEB8F1A09F1B7004FB2FF /* RegisterViewController.swift */,
+				80876C331A11B9B100D670DA /* ProfileViewController.swift */,
+				800F09E71A127F7C00C889B4 /* RegistrationForm.swift */,
+				800F09EB1A12862100C889B4 /* LoginForm.swift */,
+				800F09ED1A128DE100C889B4 /* ProfileForm.swift */,
 			);
 			path = CarWise;
 			sourceTree = "<group>";
@@ -90,6 +157,7 @@
 		80F20F7419FDA8720007486F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				809833DD19FDCE4200C30394 /* images */,
 				80F20F7519FDA8720007486F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +180,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8A707347675C1AB9DFBB4ED0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF84C842D2BB7E4A2BFBB336 /* Pods.debug.xcconfig */,
+				0B8E61D863BE657450AA7FE7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5D9C18E9ACE58C68E033EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FEC0AD19FDDF550091664F /* MapKit.framework */,
+				4863DFA19DEC68A21A70337E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80F20F9019FDA8720007486F /* Build configuration list for PBXNativeTarget "CarWise" */;
 			buildPhases = (
+				41C530463907B246085324D1 /* Check Pods Manifest.lock */,
 				80F20F6D19FDA8720007486F /* Sources */,
 				80F20F6E19FDA8720007486F /* Frameworks */,
 				80F20F6F19FDA8720007486F /* Resources */,
+				CD4CE20F9B3430BAE0B6AAAD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +280,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806C38F719FF01B1005FE2B2 /* sort@2x.png in Resources */,
+				806C38EF19FEE7B3005FE2B2 /* chat@2x.png in Resources */,
 				80F20F7C19FDA8720007486F /* Main.storyboard in Resources */,
+				806C38F619FF01B1005FE2B2 /* distance@2x.png in Resources */,
+				809833E519FDD12600C30394 /* menu@2x.png in Resources */,
 				80F20F8119FDA8720007486F /* LaunchScreen.xib in Resources */,
 				80F20F7E19FDA8720007486F /* Images.xcassets in Resources */,
+				80A35B571A0001D300A50412 /* foto@2x.jpg in Resources */,
+				806C38EB19FED376005FE2B2 /* cellBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +301,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41C530463907B246085324D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4CE20F9B3430BAE0B6AAAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80F20F6D19FDA8720007486F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801F07B21A082E7100217F2F /* LoginViewController.swift in Sources */,
 				80F20F7919FDA8720007486F /* ViewController.swift in Sources */,
+				800F09E81A127F7C00C889B4 /* RegistrationForm.swift in Sources */,
+				808DA11B1A00A36900FB6855 /* MySalesViewController.swift in Sources */,
+				801EEB901A09F1B7004FB2FF /* RegisterViewController.swift in Sources */,
 				80F20F7719FDA8720007486F /* AppDelegate.swift in Sources */,
+				800F09EC1A12862200C889B4 /* LoginForm.swift in Sources */,
+				80A35B551A00001900A50412 /* CustomCell.swift in Sources */,
+				80876C341A11B9B100D670DA /* ProfileViewController.swift in Sources */,
+				800F09EE1A128DE100C889B4 /* ProfileForm.swift in Sources */,
+				806C38ED19FEE470005FE2B2 /* RightMenuViewController.swift in Sources */,
+				80F20F9719FDA9D10007486F /* LeftMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,21 +471,30 @@
 		};
 		80F20F9119FDA8720007486F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF84C842D2BB7E4A2BFBB336 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CarWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarWise/CarWise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		80F20F9219FDA8720007486F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E61D863BE657450AA7FE7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CarWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarWise/CarWise-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +551,7 @@
 				80F20F9219FDA8720007486F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80F20F9319FDA8720007486F /* Build configuration list for PBXNativeTarget "CarWiseTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +560,7 @@
 				80F20F9519FDA8720007486F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

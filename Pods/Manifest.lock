@@ -1,0 +1,31 @@
+PODS:
+  - AFPopupView (1.0)
+  - AKLocationManager (1.0.3)
+  - ChameleonFramework (1.1.1)
+  - FXForms (1.2.9)
+  - HexColors (2.2.1)
+  - MFSideMenu (0.5.5)
+  - RMPickerViewController (1.3.0)
+  - TPKeyboardAvoiding (1.2.4)
+
+DEPENDENCIES:
+  - AFPopupView
+  - AKLocationManager
+  - ChameleonFramework
+  - FXForms
+  - HexColors
+  - MFSideMenu
+  - RMPickerViewController
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  AFPopupView: a637995cd7975bc2dca692cb5c3dc5c9eefc555b
+  AKLocationManager: 2edae3cc2c1e4ba6a27faabb8fd13d2d53526504
+  ChameleonFramework: c60096686e3771f5d78f26cfbfd08955a8a88cbd
+  FXForms: dd42cbb090e9db2f69d8f2920b99bf88f6933552
+  HexColors: 01384d2bbe8dc4ffa43c3b4135db6e976952d153
+  MFSideMenu: 0493b0f57385dd036cc5443407a31fda6dee81ac
+  RMPickerViewController: 7a97db6b742a2826c3d57f47c7fa96d957f3ceac
+  TPKeyboardAvoiding: 925e1e1912597d1a4956697eec3bd9656552153c
+
+COCOAPODS: 0.34.4

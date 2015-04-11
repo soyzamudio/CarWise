@@ -1,0 +1,5 @@
+#include "Pods-AKLocationManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/AKLocationManager" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFPopupView" "${PODS_ROOT}/Headers/Public/AKLocationManager" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/FXForms" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/MFSideMenu" "${PODS_ROOT}/Headers/Public/RMPickerViewController" "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding"
+OTHER_LDFLAGS = ${PODS_AKLOCATIONMANAGER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

@@ -16,6 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        var container = self.window?.rootViewController as MFSideMenuContainerViewController
+        var navigationController = storyboard.instantiateViewControllerWithIdentifier("HomeNavigationController") as UINavigationController
+        var leftSideMenuViewController = storyboard.instantiateViewControllerWithIdentifier("leftSideMenuViewController") as UIViewController
+        var rightSideMenuViewController = storyboard.instantiateViewControllerWithIdentifier("rightSideMenuViewController") as UIViewController
+        
+        container.leftMenuViewController = leftSideMenuViewController
+        container.centerViewController = navigationController
+        
+        container.menuWidth = 260
+        container.shadow.enabled = false
+        
+        UINavigationBar.appearance().barTintColor = UIColor(hexString: "90c640")
+        UINavigationBar.appearance().tintColor = UIColor.flatWhiteColor()
+        UINavigationBar.appearance().translucent = false
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.flatWhiteColor()]
+        
         return true
     }
 
